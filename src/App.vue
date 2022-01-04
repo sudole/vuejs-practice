@@ -2,8 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> | 
-      <router-link to="/apitest">API-TEST</router-link>
+      <router-link to="/about">About</router-link> <br />
+      <router-link to="/apitest">API-TEST</router-link> |
+      <router-link to="/sha256test">Sha256-TEST</router-link>
     </div>
     <router-view/>
   </div>
