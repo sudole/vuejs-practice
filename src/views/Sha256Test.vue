@@ -2,7 +2,7 @@
     <div style="margin:auto 0;">
         <input type="text" v-model="id" placeholder="ID"><br>
         <input type="password" v-model="pw" placeholder="password"><br>
-        <button @click="sha256Encoding">변환</button>
+        <button @click="sha256Encoding">{{ $t('conversion') }}</button>
         <p>{{ result }}</p>
     </div>
 </template>
