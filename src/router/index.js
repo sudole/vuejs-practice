@@ -22,6 +22,11 @@ const routes = [
     path: '/apitest',
     name: 'ApiTest',
     component: () => import('../views/ApiTest.vue')
+  },
+  {
+    path: '/sha256test',
+    name: 'Sha256Test',
+    component: () => import('../views/Sha256Test.vue')
   }
 ]
 
