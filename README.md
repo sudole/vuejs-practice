@@ -1,4 +1,7 @@
 # vuejs-practice
+- vuejs 연습용 프로젝트
+
+---
 
 ## Project setup
 ```
